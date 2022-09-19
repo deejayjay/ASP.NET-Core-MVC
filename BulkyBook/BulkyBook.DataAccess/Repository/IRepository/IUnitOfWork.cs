@@ -5,6 +5,7 @@
         public ICategoryRepository Category { get; }
         public ICoverTypeRepository CoverType { get; }
         public IProductRepository Product { get; }
+        public ICompanyRepository Company { get; }
 
         void Save();
     }
